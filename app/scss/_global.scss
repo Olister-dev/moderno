@@ -48,7 +48,7 @@ body{
   line-height: 60px;
   color: $bg;
   text-align: center;
-  font-weight: 700;
+  @include f700;
   margin-bottom: 30px;
 
 }
