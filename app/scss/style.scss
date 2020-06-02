@@ -360,3 +360,46 @@
 
 
 //end advantages
+//star autor
+
+.autor{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__box{
+  background-color: $green;
+  max-width: 650px;
+  width: 100%;
+  min-height: 215px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  &__title{
+  color: #fff;
+  font-size: 30px;
+  line-height: 36px;
+  max-width: 310px;
+  margin-right: 45px;
+  
+  span{
+    @include f700;
+    }
+  }
+  &__link{
+    font-size: 18px;
+    line-height: 36px;
+    background-color: #fff;
+    min-height: 64px;
+    padding: 14px 40px;
+  }
+}
+
+
+
+
+//end autor
